@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #quizMenu {
+            display: none; 
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Menu -->
+    <div id="mainMenu">
+        <h1>Welcome to the Quiz</h1>
+        <button id="startQuiz">Start Quiz</button>
+        <button id="instructions">Instructions</button>
+    </div>
+
+    <!-- Quiz Menu -->
+    <div id="quizMenu">
+        <h2>Quiz Time!</h2>
+        <p id="question">Loading...</p>
+        <button id="option1"></button>
+        <button id="option2"></button>
+        <button id="option3"></button>
+        <button id="option4"></button>
+        <br><br>
+        <button id="backToMenu">Back to Main Menu</button>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
